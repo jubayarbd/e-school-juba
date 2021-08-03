@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-top: 5px;
+    background: #F0FFF0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar img{
+    width: 170px;
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 7px;
+    transition: 0.4s;
+}
+.navbar-nav a:last-child{
+    color: white;
+    border-radius: 25px;
+    background: #21B573;
+    outline: none;
+    padding: 10px 25px !important;
+}
+.navbar-nav a:hover{
+    transform: scale(1.1);
+}
+/* banner */
+#banner{
+    margin: 80px 0;
+}
+.p1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #F15228;
+    line-height: 24px;
+}
+#banner h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+#banner h1 span{
+    color: #23B573;
+}
+.p2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6B6B;
+    line-height: 36px;
+}
+#banner a{
+    padding: 12px 36px;
+    border-radius: 33px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    background: #23B573;
+}
+/* #banner a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 36px;
+    position: absolute;
+    width: 153px;
+    height: 43px;
+    background: #21B573;
+    border-radius: 33px;
+    color: white;
+} */
+#banner a:hover{
+    background: gray;
+    color: white;
+}
+#banner img{
+    width: 100%;
+    margin-bottom: 80px;
+}
+/* banner ends */
+/* details section  */
+#details{
+    margin-bottom: 50px;
+}
+.card{
+    text-align: center;
+    transition: 0.4s;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-body img{
+    width: 66px;
+    margin: 20px 0;
+}
+.item-desc h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color: #FFFFFF;
+}
+/* details section ends */
+
+/* Courses section */
+#courses{
+    margin: 50px 0;
+    background: #F6F6F6;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    color: #413960;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+}
+.card2{
+    padding: 10px;
+    transition: 0.4s;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.card-body2 img{
+    width: 100%;
+}
+.card-desc2 h3{
+    color: #423960;
+    padding: 13px 0;
+    font-weight: 600;
+}
+.card-desc2 p{
+    font-weight: 500;
+    line-height: 36px;
+    color: #585859;
+    font-size: 13px;
+}
+.card2 .card-btn{
+    background: #23B573;
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px !important;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+.card-footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 0 0;
+}
+.card-footer2 p img{
+    width: 20px;
+}
+.card-footer2 p{
+    font-weight: 700;
+}
+
+/* Courses section ends */
+/* testimonials  */
+#testimonials{
+    margin: 80px 0;
+}
+.title2{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+.tex{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+/* testimonials ends  */
+/* footer  */
+footer{
+    background-color: #282531;
+    padding: 20px 0;
+    color: white;
+}
+.upper-footer{
+    padding: 25px 0;
+}
+.upper-footer ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.upper-footer b{
+    font-size: 17px;
+}
+.lower-footer{
+    text-align: center;
+}
+.lower-footer a{
+    text-decoration: none;
+    color: white;
+}
+/* footer ends  */
+
+/* For Mobile */
+@media (max-width:768px){
+    #banner{
+        text-align: center;
+    }
+    #banner img{
+        margin: 80px 0;
+    }
+    .upper-footer{
+        padding: 30px;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    .card2{
+        margin: 20px 0;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 50px;
+    }
+    
+}
